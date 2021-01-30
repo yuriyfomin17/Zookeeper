@@ -292,5 +292,8 @@ files:
         Zookeeper('zookeeper.zookeeper').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/98/stages/541/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 30 Jan 2021 13:58:09 UTC
+record: 3
