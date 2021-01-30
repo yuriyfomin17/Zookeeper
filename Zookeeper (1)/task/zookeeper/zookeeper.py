@@ -119,7 +119,13 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
 
-
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
+print("Please enter the number of the habitat you would like to view:")
+number = input()
+while number != "exit":
+    print(animals[int(number)])
+    print("Please enter the number of the habitat you would like to view:")
+    number = input()
+print("See you later!")
